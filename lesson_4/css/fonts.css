@@ -1,0 +1,55 @@
+@font-face {
+	font-family: "Quicksand";
+	src: url(../fonts/Quicksand-Medium.woff2) format("woff2");
+	font-weight: 500;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Quicksand";
+	src: url(../fonts/Quicksand-Bold.woff2) format("woff2");
+	font-weight: 700;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Quicksand";
+	src: url(../fonts/Quicksand-SemiBold.woff2) format("woff2");
+	font-weight: 600;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "DM Sans";
+	src: url(../fonts/DMSans-Regular.woff2) format("woff2");
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "DM Sans";
+	src: url(../fonts/DMSans-Bold.woff2) format("woff2");
+	font-weight: bold;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Noto Serif Condensed";
+	src: url(../fonts/NotoSerifCondensed-Bold.woff2) format("woff2");
+	font-weight: bold;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Noto Serif Condensed";
+	src: url(../fonts/NotoSerifCondensed-SemiBold.woff2) format("woff2");
+	font-weight: 600;
+	font-style: normal;
+	font-display: swap;
+}

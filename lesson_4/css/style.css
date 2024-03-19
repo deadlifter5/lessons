@@ -1,0 +1,53 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@700&display=swap');
+
+@import url(https://fonts.googleapis.com/css?family=Quicksand:300,regular,500,600,700); */
+
+
+@import url(fonts.css);
+
+@import url(reset.css);
+
+body {
+	font-family: "Quicksand", sans-serif;
+	font-size: 24;
+	font-weight: 600;
+	color: black;
+}
+
+.header {
+	font-family: "DM Sans";
+	font-weight: 700;
+	text-decoration: line-through;
+	text-shadow: 10px 10px 15px red;
+	text-transform: uppercase;
+	text-decoration-color: blue;
+	text-decoration-style: double;
+}
+
+.title {
+	font-family: "DM Sans";
+	font-weight: 600;
+	color: green;
+	text-align: center;
+}
+
+.text {
+	font-family: "Noto Serif Condensed";
+	font-weight: 500;
+	color: red;
+	text-align: left;
+	text-decoration: underline;
+	line-height: 1.5625;
+	white-space: nowrap;
+
+}
+
+.list {
+	font-family: "Noto Serif Condensed";
+	font-weight: 300;
+	color: blue;
+	letter-spacing: 10px;
+
+}
