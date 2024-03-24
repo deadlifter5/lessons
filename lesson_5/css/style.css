@@ -1,0 +1,159 @@
+@import url('fonts.css');
+
+@import url("https://fonts.googleapis.com/css?family=Roboto:regular,500&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Quicksand:regular,500,600&display=swap");
+
+@import url('reset.css');
+
+.main__title {
+	font-family: "Quicksand", sans-serif;
+	font-size: 32px;
+	font-weight: 500;
+	margin: 100px 0;
+	text-align: center;
+}
+
+.instaproducts {
+	background-color: rgba(34, 50, 57, 0.1);
+}
+
+.products {
+	font-family: "Roboto", sans-serif;
+	padding: 100px 0px 150px 0px;
+}
+
+._container {
+	max-width: 1320px;
+	margin: 0 auto;
+}
+
+.title {
+	font-weight: 500;
+	font-size: 50px;
+	text-align: center;
+	text-transform: capitalize;
+	margin-bottom: 60px;
+}
+
+.inline-block_image {
+	font-size: 0;
+}
+
+.image__item {
+	display: inline-block;
+	margin-right: 24px;
+}
+
+.item__6 {
+	margin: 0;
+}
+
+
+.beds {
+	background-color: rgb(248, 248, 248);
+}
+
+.beds__products {
+	font-family: "Proxima Nova", sans-serif;
+	color: rgb(43, 41, 41);
+	padding: 70px 0px 70px 0px;
+}
+
+.beds__title {
+	font-weight: 600;
+	font-size: 40px;
+	text-align: center;
+	margin-bottom: 40px;
+}
+
+.beds__block-items {
+	font-size: 0;
+}
+
+.beds__item {
+	vertical-align: top;
+	max-width: 300px;
+	display: inline-block;
+	text-align: center;
+	margin-right: 30px;
+}
+
+.beds__item-4 {
+	margin: 0;
+}
+
+.beds__image {
+	margin-bottom: 20px;
+}
+
+.beds__item-subtitle {
+	margin-bottom: 20px;
+	color: rgb(43, 41, 41);
+	font-size: 26px;
+	font-weight: 600;
+	line-height: 1.3076;
+}
+
+.beds__item-text {
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 1.875;
+}
+
+.beds__choose-bed {
+	font-family: "Proxima Nova";
+	color: hwb(0 16% 83%);
+	padding: 70px 0px 40px 0px;
+}
+
+.beds_container {
+	max-width: 1070px;
+	margin: 0 auto;
+}
+
+.beds__choose-bed_title {
+	font-size: 40px;
+	font-weight: 600;
+	line-height: 1.2;
+	margin-bottom: 40px;
+}
+
+.beds__choose-bed_image {
+	margin-bottom: 40px;
+}
+
+.beds__choose-bed_text>p {
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 1.875;
+	margin-bottom: 10px;
+}
+
+.beds__choose-bed_text {
+	margin-bottom: 40px;
+}
+
+.beds__choose-bed_subtitle {
+	font-size: 20px;
+	font-weight: 600;
+	line-height: 1.4;
+	margin-bottom: 22px;
+}
+
+.beds__choose-bed_list {
+	padding-left: 47px;
+	margin-bottom: 48px;
+}
+
+.beds__choose-bed_list>li {
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 1.875;
+	margin-bottom: 20px;
+}
+
+.beds__choose-bed_text {
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 1.875;
+}
