@@ -1,0 +1,201 @@
+@import url('fonts.css');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Quicksand:regular,500,600&display=swap");
+
+@import url('reset.css');
+
+/* ===============Beds section=============== */
+
+/* .main__title {
+	font-family: "Quicksand", sans-serif;
+	font-size: 32px;
+	font-weight: 500;
+	margin: 100px 0;
+	text-align: center;
+} */
+
+.beds__choose-bed {
+	font-family: "Proxima Nova";
+	color: rgb(43, 41, 41);
+	padding: 70px 0px 40px 0px;
+}
+
+.beds_container {
+	max-width: 1070px;
+	margin: 0 auto;
+}
+
+.beds__choose-bed_title {
+	font-size: 40px;
+	font-weight: 600;
+	line-height: 1.2;
+	margin-bottom: 40px;
+}
+
+.beds__choose-bed_image {
+	margin-bottom: 40px;
+}
+
+.beds__choose-bed_text>p {
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 1.875;
+	margin-bottom: 10px;
+}
+
+.beds__choose-bed_text {
+	margin-bottom: 40px;
+}
+
+.beds__choose-bed_subtitle {
+	font-size: 20px;
+	font-weight: 600;
+	line-height: 1.4;
+	margin-bottom: 22px;
+}
+
+.beds__choose-bed_list {
+	margin-bottom: 48px;
+}
+
+.beds__choose-bed_list>li {
+	background: url(../img/krovato/mark.png) 0px 0 no-repeat;
+	padding-left: 47px;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 1.875;
+	margin-bottom: 20px;
+	min-height: 29px;
+}
+
+.beds__choose-bed_text {
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 1.875;
+}
+
+/* ===============EduPlay section=============== */
+
+.eduplay {
+	font-family: "Quicksand", sans-serif;
+	background: url(../img/kid/background.jpg) 0px 0px / cover no-repeat;
+	max-width: 1440px;
+	margin: 0 auto;
+}
+
+.eduplay__container {
+	width: 1280px;
+	height: 530px;
+	margin: 0 auto;
+}
+
+.eduplay__block {
+	display: inline-block;
+	color: #fff;
+	padding: 121px 0;
+	max-width: 600px;
+	margin-right: 103px;
+}
+
+.eduplay__title {
+	font-size: 40px;
+	font-weight: 700;
+	line-height: 1.2;
+	margin-bottom: 24px;
+}
+
+.eduplay__text {
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 1.6;
+	margin-bottom: 24px;
+}
+
+.eduplay__pushbutton {
+	background: #fff url("../img/kid/hat.png") 8% / 20px no-repeat;
+	line-height: 1.5625;
+	padding: 13px 20px 12px 40px;
+	color: #0d1216;
+	font-weight: 700;
+	border-radius: 8px;
+}
+
+.eduplay__kidimage {
+	max-width: 547px;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+
+
+/* ===============Coral section=============== */
+
+.coral {
+	margin-top: 300px;
+	font-family: "Roboto";
+	background-color: rgb(237, 240, 244);
+	max-width: 1920px;
+	background: url(../img/coral/bg1.png) 100% 60% no-repeat,
+		url(../img/coral/bg2.png) 0 100% no-repeat;
+}
+
+.coral__container {
+	width: 1320px;
+	height: 847;
+	margin: 0 auto;
+}
+
+.coral__block {
+	display: inline-block;
+	vertical-align: middle;
+	text-align: start;
+	max-width: 690px;
+	margin-right: 130px;
+}
+
+.coral__title {
+	font-size: 74px;
+	font-weight: 300;
+	line-height: 0.75;
+	margin-bottom: 60px;
+}
+
+.coral__text {
+	font-size: 30px;
+	font-weight: 400;
+	line-height: 1.82;
+	text-transform: capitalize;
+	margin-bottom: 80px;
+}
+
+.coral__button-shop {
+	background: rgb(30, 40, 50);
+	display: inline-block;
+	color: rgb(255, 255, 255);
+	font-size: 29px;
+	font-weight: 400;
+	line-height: 1.17;
+}
+
+.coral__image {
+	display: inline-block;
+	vertical-align: middle;
+	border: 2px solid rgba(0, 0, 0, 0.25);
+	border-radius: 160px 0px;
+
+}
+
+.coral__image img {
+	max-width: 425px;
+	width: 100%;
+	border-radius: 160px 0px;
+	margin: -20px 0 15px -15px;
+}
+
+
+footer {
+	margin-top: 300px;
+	color: red;
+	font-size: 50px;
+}
