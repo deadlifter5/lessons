@@ -1,0 +1,315 @@
+@import url('fonts.css');
+
+@import url('https://fonts.googleapis.com/css2?family=Exo:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,700;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Quicksand:regular,500,600&display=swap");
+
+@import url('reset.css');
+
+body {
+	font-family: "Exo", sans-serif;
+	text-align: center;
+}
+
+/* ===============About me section============== */
+
+.about {
+	font-family: "Exo", sans-serif;
+	color: #fff;
+	background: url(../img/about_bg.png);
+}
+
+.about__container {
+	min-height: 555px;
+}
+
+.about__title {
+	display: inline-block;
+	padding-top: 120px;
+	font-size: 60px;
+	font-weight: 700;
+	line-height: 1.16;
+	text-transform: uppercase;
+}
+
+.about__title:after {
+	display: block;
+	margin-top: 20px;
+	height: 1px;
+	width: 401px;
+	content: "";
+	background: linear-gradient(90deg, rgba(255, 0, 0, 1) 0%, rgba(66, 255, 0, 1) 51%, rgba(36, 0, 255, 1) 100%);
+	margin-bottom: 20px;
+}
+
+.about__text {
+	max-width: 992px;
+	text-transform: capitalize;
+	font-weight: 400;
+	margin-bottom: 60px;
+	font-size: 18px;
+	line-height: 2.22;
+	letter-spacing: -0.02em;
+	margin: 0 auto;
+	margin-bottom: 20px;
+}
+
+.about__list {
+	margin-right: 70px;
+}
+
+.about__list-item {
+	font-family: "Orbitron", sans-serif;
+	font-size: 20px;
+	font-weight: 500;
+	line-height: 1.25;
+	display: inline-block;
+	text-align: left;
+	text-transform: capitalize;
+	margin-left: 60px;
+}
+
+.about__list-item::after {
+	content: '';
+	display: inline-block;
+	width: 10px;
+	height: 10px;
+	margin-left: 60px;
+	border-radius: 100%;
+	background: linear-gradient(90deg,
+			rgba(255, 0, 0, 1) 0%,
+			rgba(66, 255, 0, 1) 50%,
+			rgba(36, 0, 255, 1) 100%);
+}
+
+
+/* ===============Contacts section============== */
+
+
+.contacts {
+	background-color: black;
+	padding-bottom: 111px;
+}
+
+.contacts__list {
+	padding-right: 433px;
+
+}
+
+.contacts__list-item {
+	display: inline-block;
+	color: #fff;
+	font-size: 20px;
+	line-height: 20px;
+	letter-spacing: -0.02em;
+	text-transform: capitalize;
+	margin-right: 80px;
+}
+
+.contacts__list-item-3 {
+	display: inline-block;
+	color: #fff;
+	font-size: 20px;
+	line-height: 20px;
+	letter-spacing: -0.02em;
+	text-transform: lowercase;
+}
+
+.list-item-img {
+	margin-right: 20px;
+}
+
+
+/* ===============Krovato section============== */
+
+
+.beds__choose-bed {
+	font-family: "Proxima Nova";
+	color: rgb(43, 41, 41);
+	padding: 70px 0px 40px 0px;
+}
+
+.beds_container {
+	max-width: 1070px;
+	margin: 0 auto;
+}
+
+.beds__choose-bed_title {
+	font-size: 40px;
+	font-weight: 600;
+	line-height: 1.2;
+	margin-bottom: 40px;
+}
+
+.beds__choose-bed_image {
+	margin-bottom: 40px;
+}
+
+.beds__choose-bed_text>p {
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 1.875;
+	margin-bottom: 10px;
+}
+
+.beds__choose-bed_text {
+	margin-bottom: 40px;
+}
+
+.beds__choose-bed_subtitle {
+	font-size: 20px;
+	font-weight: 600;
+	line-height: 1.4;
+	margin-bottom: 22px;
+}
+
+.beds__choose-bed_list {
+	margin-bottom: 48px;
+}
+
+.beds__choose-bed_list>li {
+	background: url(../img/mark.png) 0px 0 no-repeat;
+	padding-left: 47px;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 1.875;
+	margin-bottom: 20px;
+	min-height: 29px;
+}
+
+.beds__choose-bed_text {
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 1.875;
+	margin-bottom: 100px;
+}
+
+
+/* ===============Game section============== */
+
+.game {
+	background-color: black;
+	margin-top: 70px;
+	text-align: initial;
+	font-size: 0;
+	min-height: 600px;
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+.game__section {
+	background-color: orangered;
+	visibility: hidden;
+}
+
+.game__section-1 {
+	height: 50px;
+	width: 50px;
+	visibility: visible;
+}
+
+
+.game__section-1:hover+.game__section-2,
+.game__section-2:hover {
+	width: 100%;
+	height: 50px;
+	visibility: visible;
+}
+
+.game__section-3 {
+	width: 1150px;
+	height: 50px;
+	display: inline-block;
+}
+
+.game__section-3-1 {
+	width: 50px;
+	height: 50px;
+	visibility: hidden;
+}
+
+.game__section-2:hover~.game__section-3-1,
+.game__section-3-1:hover {
+	visibility: visible;
+	display: inline-block;
+}
+
+.game__section-3-1:hover {
+	height: 100px;
+}
+
+.game__section-4-1 {
+	width: 50px;
+	height: 50px;
+	visibility: hidden;
+	display: inline-block;
+}
+
+.game__section-3-1:hover~.game__section-4 {
+	display: inline-block;
+	width: 1150px;
+	height: 50px;
+}
+
+.game__section-3-1:hover~.game__section-4-1,
+.game__section-4-1:hover {
+	visibility: visible;
+	display: inline-block;
+}
+
+.game__section-4-1:hover {
+	width: 100%;
+}
+
+.game__section-4-1:hover~.game__section-5,
+.game__section-5:hover {
+	height: 50px;
+	width: 50px;
+	visibility: visible;
+}
+
+.game__section-5:hover+.game__section-6,
+.game__section-6:hover {
+	width: 50%;
+	height: 50px;
+	display: inline-block;
+	visibility: visible;
+}
+
+.game__section-5 {
+	height: 50px;
+}
+
+.game__section-6:hover+.game__section-7:hover {
+	height: 100px;
+	width: 50pxx;
+	visibility: visible;
+	margin-left: 550px;
+}
+
+.game__section-7:hover {
+	height: 150px;
+}
+
+.game__section-7 {
+	height: 150px;
+}
+
+.game__line-8 {
+	width: 50px;
+	height: 50px;
+	background: green;
+	margin-left: 500px;
+}
+
+.game__section-7:hover+.game__section-8,
+.game__section-8:hover {
+	visibility: visible;
+}
+
+.game__section-8:hover {
+	width: 100%;
+	height: 100px;
+	margin-left: 0;
+}
