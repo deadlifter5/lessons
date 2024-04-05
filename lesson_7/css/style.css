@@ -196,6 +196,7 @@ body {
 	min-height: 600px;
 	max-width: 1200px;
 	margin: 0 auto;
+	margin-bottom: 60px;
 }
 
 .game__section {
@@ -312,4 +313,8 @@ body {
 	width: 100%;
 	height: 100px;
 	margin-left: 0;
+}
+
+footer {
+	color: red;
 }
