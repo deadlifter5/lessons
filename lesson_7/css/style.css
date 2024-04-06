@@ -284,7 +284,7 @@ body {
 
 .game__section-6:hover+.game__section-7:hover {
 	height: 100px;
-	width: 50pxx;
+	width: 50px;
 	visibility: visible;
 	margin-left: 550px;
 }
