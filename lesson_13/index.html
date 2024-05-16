@@ -1,0 +1,584 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/style.css">
+	<title>Lesson 13</title>
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__container">
+				<div class="top-header">
+
+					<ul class=top-header__items>
+						<li class=top-header__item>
+							<a href="#" class="top-header__link">Про нас</a>
+						</li>
+						<li class=top-header__item>
+							<a href="#" class="top-header__link">Оплата</a>
+						</li>
+						<li class=top-header__item>
+							<a href="#" class="top-header__link">Доставка та збірка</a>
+						</li>
+						<li class=top-header__item>
+							<a href="#" class="top-header__link">Відгуки</a>
+						</li>
+						<li class=top-header__item>
+							<a href="#" class="top-header__link">Блог</a>
+						</li>
+						<li class=top-header__item>
+							<a href="#" class="top-header__link">Контакти</a>
+						</li>
+					</ul>
+
+					<div class="top-header__help">
+						<p class="top-header__text">Допомога і консультація:</p>
+						<div class="top-header__icons">
+
+							<a href="#" class="top-header__icon">
+								<img class="messengers" src="img/header/whatsapp-icon.svg" alt="іконка ватсапу"></a>
+							<a href="#" class="top-header__icon">
+								<img class="messengers" src="img/header/telegram-icon.svg" alt="іконка телеграму"></a>
+							<a href="#" class="top-header__icon">
+								<img class="messengers" src="img/header/viber-icon.svg" alt="іконка вайберу"></a>
+							<a href="#" class="top-header__icon">
+								<img class="messengers" src="img/header/language-icon.svg" alt="іконка вибір мови"></a>
+
+						</div>
+					</div>
+				</div>
+				<div class="center-header">
+					<ul class="center-header__list">
+						<li class="center-header__krovato-logo">
+							<img class="" src="img/header/krovato-logo.svg" alt="логотип сайту">
+						</li>
+						<li class="center-header__button">
+							<a href="#" class="center-header__button-link">
+								<img class="" src="img/header/button-icon.svg" alt="кнопка меню">
+							</a>
+						</li>
+						<li class="center-header__search">
+							<a href="#" class="center-header__search-area">Пошук товарів
+							</a>
+							<img class="center-header__search-icon" src="img/header/search-icon.svg"
+								alt="іконка пошуку">
+						</li>
+						<li class="center-header__tel">
+							<img class="center-header__tel-icon" src="img/header/telephone-icon.svg"
+								alt="іконка зателефонувати">
+							<div class="center-header__tel-info">
+								<div class="center-header__tel-text">Щодня з 9:00 до 18:00
+								</div>
+								<div class="center-header__tel-number">
+									<a href="#" class="center-header__tel-link">
+										067 929-45-45
+									</a>
+								</div>
+							</div>
+						</li>
+						<li class="center-header__buy-area">
+							<div class="center-header__favourite">
+								<a href="#" class="center-header__like-link">
+									<img class="center-header__like-icon" src="img/header/like-icon.svg" alt="вибране">
+								</a>
+							</div>
+							<div class="center-header__basket">
+								<a href="#" class="center-header__basket-link">
+									<img class="center-header__basket-icon" src="img/header/basket-icon.svg"
+										alt="корзина">
+								</a>
+							</div>
+						</li>
+					</ul>
+				</div>
+				<div class="bottom-header">
+					<ul class="bottom-header__items">
+						<li class="bottom-header__item">
+							<a href="#" class="bottom-header__link-1"><span>Акції</span></a>
+						</li>
+						<li class="bottom-header__item">
+							<a href="#" class="bottom-header__link-2"><span>Розпродаж</span></a>
+						</li>
+						<li class="bottom-header__item">
+							<a href="#" class="bottom-header__link-3"><span>Купити в кредит</span></a>
+						</li>
+					</ul>
+					<div class="bottom-header__button-links">
+						<ul class="bottom-header__button-list">
+							<a href="#" class="bottom-header__button-link">
+								<li class="bottom-header__button">Дитяча
+							</a>
+							</li>
+							<a href="#" class="bottom-header__button-link">
+								<li class="bottom-header__button">Кухня
+							</a>
+							</li>
+							<a href="#" class="bottom-header__button-link">
+								<li class="bottom-header__button">Ванна
+							</a>
+							</li>
+							<a href="#" class="bottom-header__button-link">
+								<li class="bottom-header__button">Спальня
+							</a>
+							</li>
+							<a href="#" class="bottom-header__button-link">
+								<li class="bottom-header__button">Передпокій
+							</a>
+							</li>
+							<a href="#" class="bottom-header__button-link">
+								<li class="bottom-header__button">Вітальня
+							</a>
+							</li>
+							<a href="#" class="bottom-header__button-link">
+								<li class="bottom-header__button">Офіс
+							</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</header>
+		<main class="page">
+			<div class="popular">
+				<div class="popular__container">
+					<h2 class="subtitle">
+						Популярні категорії
+					</h2>
+					<div class="popular__items">
+						<div class="popular__item popular__item--1">
+							<a href="#" class="popular__item-link">
+								<div class="popular__item-head">
+									<p class="popular__item-title">Ліжка</p>
+									<p class="popular__item-number">54</p>
+								</div>
+								<!-- <div class="popular__item-image">
+									<img src="img/main/popular/01.webp" alt="ліжка">
+								</div> -->
+								<div class="popular__item-arrow">
+									<img src="img/main/popular/arrow.svg" alt="стрілка для переходу">
+								</div>
+							</a>
+						</div>
+						<div class="popular__item popular__item--2">
+							<a href="#" class="popular__item-link">
+								<div class="popular__item-head">
+									<p class="popular__item-title">Матраци</p>
+									<p class="popular__item-number">30</p>
+								</div>
+								<!-- <div class="popular__item-image">
+									<img src="img/main/popular/02.webp" alt="матраци">
+								</div> -->
+								<div class="popular__item-arrow">
+									<img src="img/main/popular/arrow.svg" alt="стрілка для переходу">
+								</div>
+							</a>
+						</div>
+						<div class="popular__item popular__item--3">
+							<a href="#" class="popular__item-link">
+								<div class="popular__item-head">
+									<p class="popular__item-title">М'які меблі</p>
+									<p class="popular__item-number"> 196</p>
+								</div>
+								<!-- <div class="popular__item-image">
+									<img src="img/main/popular/03.webp" alt="м'які меблі">
+								</div> -->
+								<div class="popular__item-arrow">
+									<img src="img/main/popular/arrow.svg" alt="стрілка для переходу">
+								</div>
+							</a>
+						</div>
+						<div class="popular__item popular__item--4">
+							<a href="#" class="popular__item-link">
+								<div class="popular__item-head">
+									<p class="popular__item-title">Шафи</p>
+									<p class="popular__item-number">79</p>
+								</div>
+								<!-- <div class="popular__item-image">
+									<img src="img/main/popular/04.webp" alt="шафи">
+								</div> -->
+								<div class="popular__item-arrow">
+									<img src="img/main/popular/arrow.svg" alt="стрілка для переходу">
+								</div>
+							</a>
+						</div>
+						<div class="popular__item popular__item--5">
+							<a href="#" class="popular__item-link">
+								<div class="popular__item-head">
+									<p class="popular__item-title">Комоди</p>
+									<p class="popular__item-number">54</p>
+								</div>
+								<!-- <div class="popular__item-image">
+									<img src="img/main/popular/05.webp" alt="комоди">
+								</div> -->
+								<div class="popular__item-arrow">
+									<img src="img/main/popular/arrow.svg" alt="стрілка для переходу">
+								</div>
+							</a>
+						</div>
+						<div class="popular__item popular__item--6">
+							<a href="#" class="popular__item-link">
+								<div class="popular__item-head">
+									<p class="popular__item-title">Тумби</p>
+									<p class="popular__item-number">64</p>
+								</div>
+								<!-- <div class="popular__item-image">
+									<img src="img/main/popular/06.webp" alt="тумби">
+								</div> -->
+								<div class="popular__item-arrow">
+									<img src="img/main/popular/arrow.svg" alt="стрілка для переходу">
+								</div>
+							</a>
+						</div>
+						<div class="popular__item popular__item--7">
+							<a href="#" class="popular__item-link">
+								<div class="popular__item-head">
+									<p class="popular__item-title">Столи</p>
+									<p class="popular__item-number">35</p>
+								</div>
+								<!-- <div class="popular__item-image">
+									<img src="img/main/popular/07.webp" alt="столи">
+								</div> -->
+								<div class="popular__item-arrow">
+									<img src="img/main/popular/arrow.svg" alt="стрілка для переходу">
+								</div>
+							</a>
+						</div>
+						<div class="popular__item popular__item--8">
+							<a href="#" class="popular__item-link">
+								<div class="popular__item-head">
+									<p class="popular__item-title">Стільці</p>
+									<p class="popular__item-number">89</p>
+								</div>
+								<!-- <div class="popular__item-image">
+									<img src="img/main/popular/08.webp" alt="стільці">
+								</div> -->
+								<div class="popular__item-arrow">
+									<img src="img/main/popular/arrow.svg" alt="стрілка для переходу">
+								</div>
+							</a>
+						</div>
+						<div class="popular__item popular__item--9">
+							<a href="#" class="popular__item-link">
+								<div class="popular__item-head">
+									<p class="popular__item-title">Меблеві стіни</p>
+									<p class="popular__item-number">24</p>
+								</div>
+								<!-- <div class="popular__item-image">
+									<img src="img/main/popular/09.webp" alt="меблеві стіни">
+								</div> -->
+								<div class="popular__item-arrow">
+									<img src="img/main/popular/arrow.svg" alt="стрілка для переходу">
+								</div>
+							</a>
+						</div>
+						<div class="popular__item popular__item--10">
+							<a href="#" class="popular__item-link">
+								<div class="popular__item-head">
+									<p class="popular__item-title">Кухні</p>
+									<p class="popular__item-number">30</p>
+								</div>
+								<!-- <div class="popular__item-image">
+									<img src="img/main/popular/10.webp" alt="кухні">
+								</div> -->
+								<div class="popular__item-arrow">
+									<img src="img/main/popular/arrow.svg" alt="стрілка для переходу">
+								</div>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="most-popular">
+				<div class="most-popular__container">
+					<div class="title-link">
+						<h2 class="subtitle-2">Найпопулярніші товари</h2>
+						<a href="#" class="most-popular__link">Дивитись всі
+							<img class="link-arrow" src="img/main/most_popular/vector-01.svg" alt="">
+						</a>
+					</div>
+					<div class="most-popular__items">
+						<div class="most-popular__item">
+							<div class="most-popular__image">
+								<a href="#" class="most-popular__item-link">
+									<img src="img/main/most_popular/01.jpg" alt="Найпопулярніший товар">
+								</a>
+							</div>
+							<div class="most-popular__item-value">
+								<p class="most-popular__item-text">
+									<span>Розмір: 61 x 184 x 2130 мм</span>
+								</p>
+							</div>
+							<div class="most-popular__item-title">
+								Ліжко Спарта / Sparta з <br>підйомним механізмом
+							</div>
+							<div class="most-popular__item-available">
+								<img src="img/main/most_popular/vector-02.svg" alt="Іконка наявності">
+								<span>В наявності</span>
+							</div>
+							<div class="most-popular__bottom">
+								<div class="most-popular__price">
+									<div class="most-popular__old-price">25 400 грн.
+									</div>
+									<div class="most-popular__new-price">15 400 грн.
+									</div>
+								</div>
+								<div class="most-popular__buttons">
+									<a href="#" class="most-popular__favourite-button">
+										<img src="img/main/most_popular/obrane.svg" alt="Вибране">
+									</a>
+									<a href="#" class="most-popular__wanted-button">
+										<img src="img/main/most_popular/vector-04.svg" alt="Корзина">
+									</a>
+								</div>
+							</div>
+						</div>
+						<div class="most-popular__item">
+							<div class="most-popular__image">
+								<img src="img/main/most_popular/02.jpg" alt="Найпопулярніший товар">
+							</div>
+							<div class="most-popular__item-value">
+								<p class="most-popular__item-text">
+									<span>Розмір: 61 x 184 x 2130 мм</span>
+								</p>
+							</div>
+							<div class="most-popular__item-title">
+								<a href="#" class="most-popular__item-link">
+									Ліжко Аргон з підйомним механізмом
+								</a>
+							</div>
+							<div class="most-popular__item-available">
+								<img src="img/main/most_popular/vector-02.svg" alt="Іконка наявності">
+								<span>В наявності</span>
+							</div>
+							<div class="most-popular__bottom">
+								<div class="most-popular__price">
+									<div class="most-popular__new-price">16 400 грн.
+									</div>
+								</div>
+								<div class="most-popular__buttons">
+									<a href="#" class="most-popular__favourite-button">
+										<img src="img/main/most_popular/obrane.svg" alt="Вибране">
+									</a>
+									<a href="#" class="most-popular__wanted-button">
+										<img src="img/main/most_popular/vector-04.svg" alt="Корзина">
+									</a>
+								</div>
+							</div>
+						</div>
+						<div class="most-popular__item">
+							<div class="most-popular__image">
+								<img src="img/main/most_popular/03.jpg" alt="Найпопулярніший товар">
+							</div>
+							<div class="most-popular__item-value">
+								<p class="most-popular__item-text">
+									<span>Розмір: 61 x 184 x 2130 мм</span>
+								</p>
+							</div>
+							<div class="most-popular__item-title">
+								<a href="#" class="most-popular__item-link">
+									Ліжко Престиж з підйомним механізмом
+								</a>
+							</div>
+							<div class="most-popular__item-available">
+								<img src="img/main/most_popular/vector-02.svg" alt="Іконка наявності">
+								<span>В наявності</span>
+							</div>
+							<div class="most-popular__bottom">
+								<div class="most-popular__price">
+									<div class="most-popular__new-price">14 969 грн.
+									</div>
+								</div>
+								<div class="most-popular__buttons">
+									<a href="#" class="most-popular__favourite-button">
+										<img src="img/main/most_popular/obrane.svg" alt="Вибране">
+									</a>
+									<a href="#" class="most-popular__wanted-button">
+										<img src="img/main/most_popular/vector-04.svg" alt="Корзина">
+									</a>
+								</div>
+							</div>
+						</div>
+						<div class="most-popular__item">
+							<div class="most-popular__image">
+								<img src="img/main/most_popular/04.jpg" alt="Найпопулярніший товар">
+							</div>
+							<div class="most-popular__item-value">
+								<p class="most-popular__item-text">
+									<span>Розмір: 61 x 184 x 2130 мм</span>
+								</p>
+							</div>
+							<div class="most-popular__item-title">
+								<a href="#" class="most-popular__item-link">
+									Диван Токіо-2
+								</a>
+							</div>
+							<div class="most-popular__item-available">
+								<img src="img/main/most_popular/vector-02.svg" alt="Іконка наявності">
+								<span>В наявності</span>
+							</div>
+							<div class="most-popular__bottom">
+								<div class="most-popular__price">
+									<div class="most-popular__new-price">13 211 грн.
+									</div>
+								</div>
+								<div class="most-popular__buttons">
+									<a href="#" class="most-popular__favourite-button">
+										<img src="img/main/most_popular/obrane.svg" alt="Вибране">
+									</a>
+									<a href="#" class="most-popular__wanted-button">
+										<img src="img/main/most_popular/vector-04.svg" alt="Корзина">
+									</a>
+								</div>
+							</div>
+						</div>
+						<div class="most-popular__item">
+							<div class="most-popular__image">
+								<img src="img/main/most_popular/05.jpg" alt="Найпопулярніший товар">
+							</div>
+							<div class="most-popular__item-value">
+								<p class="most-popular__item-text">
+									<span>Розмір: 61 x 184 x 2130 мм</span>
+								</p>
+							</div>
+							<div class="most-popular__item-title">
+								<a href="#" class="most-popular__item-link">
+									Матрац Largo SLIM / Ларго Слім
+								</a>
+							</div>
+							<div class="most-popular__item-available">
+								<img src="img/main/most_popular/vector-02.svg" alt="Іконка наявності">
+								<span>В наявності</span>
+							</div>
+							<div class="most-popular__bottom">
+								<div class="most-popular__price">
+									<div class="most-popular__old-price">3 122 грн.
+									</div>
+									<div class="most-popular__new-price">2 810 грн.
+									</div>
+								</div>
+								<div class="most-popular__buttons">
+									<a href="#" class="most-popular__favourite-button">
+										<img src="img/main/most_popular/obrane.svg" alt="Вибране">
+									</a>
+									<a href="#" class="most-popular__wanted-button">
+										<img src="img/main/most_popular/vector-04.svg" alt="Корзина">
+									</a>
+								</div>
+							</div>
+						</div>
+						<div class="most-popular__item">
+							<div class="most-popular__image">
+								<img src="img/main/most_popular/06.jpg" alt="Найпопулярніший товар">
+							</div>
+							<div class="most-popular__item-value">
+								<p class="most-popular__item-text">
+									<span>Розмір: 61 x 184 x 2130 мм</span>
+								</p>
+							</div>
+							<div class="most-popular__item-title">
+								<a href="#" class="most-popular__item-link">
+									Матрац ARGENTUM<br>AMALTEA / АргентумАмалті
+								</a>
+							</div>
+							<div class="most-popular__item-available">
+								<img src="img/main/most_popular/vector-02.svg" alt="Іконка наявності">
+								<span>В наявності</span>
+							</div>
+							<div class="most-popular__bottom">
+								<div class="most-popular__price">
+									<div class="most-popular__old-price">5 966 грн.
+									</div>
+									<div class="most-popular__new-price">5 071 грн.
+									</div>
+								</div>
+								<div class="most-popular__buttons">
+									<a href="#" class="most-popular__favourite-button">
+										<img src="img/main/most_popular/obrane.svg" alt="Вибране">
+									</a>
+									<a href="#" class="most-popular__wanted-button">
+										<img src="img/main/most_popular/vector-04.svg" alt="Корзина">
+									</a>
+								</div>
+							</div>
+						</div>
+						<div class="most-popular__item">
+							<div class="most-popular__image">
+								<img src="img/main/most_popular/07.jpg" alt="Найпопулярніший товар">
+							</div>
+							<div class="most-popular__item-value">
+								<p class="most-popular__item-text">
+									<span>Розмір: 61 x 184 x 2130 мм</span>
+								</p>
+							</div>
+							<div class="most-popular__item-title">
+								<a href="#" class="most-popular__item-link">
+									Диван Браво
+								</a>
+							</div>
+							<div class="most-popular__item-available">
+								<img src="img/main/most_popular/vector-02.svg" alt="Іконка наявності">
+								<span>В наявності</span>
+							</div>
+							<div class="most-popular__bottom">
+								<div class="most-popular__price">
+									<div class="most-popular__new-price">10 008 грн.
+									</div>
+								</div>
+								<div class="most-popular__buttons">
+									<a href="#" class="most-popular__favourite-button">
+										<img src="img/main/most_popular/obrane.svg" alt="Вибране">
+									</a>
+									<a href="#" class="most-popular__wanted-button">
+										<img src="img/main/most_popular/vector-04.svg" alt="Корзина">
+									</a>
+								</div>
+							</div>
+						</div>
+						<div class="most-popular__item">
+							<div class="most-popular__image">
+								<img src="img/main/most_popular/08.jpg" alt="Найпопулярніший товар">
+							</div>
+							<div class="most-popular__item-value">
+								<p class="most-popular__item-text">
+									<span>Розмір: 61 x 184 x 2130 мм</span>
+								</p>
+							</div>
+							<div class="most-popular__item-title">
+								<a href="#" class="most-popular__item-link">
+									Ліжко МК-5
+								</a>
+							</div>
+							<div class="most-popular__item-available">
+								<img src="img/main/most_popular/vector-02.svg" alt="Іконка наявності">
+								<span>В наявності</span>
+							</div>
+							<div class="most-popular__bottom">
+								<div class="most-popular__price">
+									<div class="most-popular__new-price">8 775 грн.
+									</div>
+								</div>
+								<div class="most-popular__buttons">
+									<a href="#" class="most-popular__favourite-button">
+										<img src="img/main/most_popular/obrane.svg" alt="Вибране">
+									</a>
+									<a href="#" class="most-popular__wanted-button">
+										<img src="img/main/most_popular/vector-04.svg" alt="Корзина">
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</main>
+		<footer class=footer>
+
+		</footer>
+	</div>
+</body>
+
+</html>
