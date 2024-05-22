@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/style.css">
+	<title>Lesson 14</title>
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+		</header>
+		<main class="order">
+			<h2 class="title">Оформлення замовлення
+			</h2>
+			<div class="order__container">
+				<div class="order__buyer-info">
+					<h3 class="subtitle-1">Інформація про покупця
+					</h3>
+					<form action="#" class="form">
+						<div class="form__column-1">
+							<div class="form__line">
+								<input name="form []" placeholder="Прізвище" class="form__input" type="text">
+							</div>
+							<div class="form__line">
+								<input name="form []" placeholder="Ім´я" class="form__input" type="text">
+							</div>
+							<div class="form__line">
+								<input name="form []" placeholder="По батькові" class="form__input" type="text">
+							</div>
+							<label class="form__checkbox checkbox">
+								<input type="checkbox" class="checkbox__input">
+								<span class="checkbox__text">Отримуватиме замовлення інша людина</span>
+							</label>
+						</div>
+						<div class="form__column-2">
+							<div class="form__line">
+								<input name="form []" placeholder="Контактний телефон" class="form__input" type="text">
+							</div>
+							<div class="form__line">
+								<input name="form []" placeholder="E-mail" class="form__input" type="text">
+							</div>
+						</div>
+					</form>
+				</div>
+				<div class="borderline"></div>
+				<h3 class="subtitle-2">Вибір способу доставки</h3>
+				<div class="form__delivery delivery-form">
+					<div class="delivery-form__items">
+						<label class="delivery-form__radio radio-delivery" for="radio-delivery-1">
+							<input checked value="pickup" name="delivery" id="radio-delivery-1"
+								class="radio-delivery__input" type="radio">
+							<span class="radio-delivery__border"></span>
+							<span class="delivery-form__icon delivery-form__icon--location"></span>
+							<span class="radio-delivery__text">Самовивіз із магазину</span>
+							<span class="radio-delivery__price">Бесплатно</span>
+						</label>
+						<label class="delivery-form__radio radio-delivery" for="radio-delivery-2">
+							<input checked value="pickup" name="delivery" id="radio-delivery-2"
+								class="radio-delivery__input" type="radio">
+							<span class="radio-delivery__border"></span>
+							<span class="delivery-form__icon delivery-form__icon--np"></span>
+							<span class="radio-delivery__text">Доставка Нова Пошта</span>
+							<span class="radio-delivery__price">≈ від 500 грн</span>
+						</label>
+						<label class="delivery-form__radio radio-delivery" for="radio-delivery-3">
+							<input checked value="pickup" name="delivery" id="radio-delivery-3"
+								class="radio-delivery__input" type="radio">
+							<span class="radio-delivery__border"></span>
+							<span class="delivery-form__icon delivery-form__icon--curier"></span>
+							<span class="radio-delivery__text">Доставка кур'єром</span>
+							<span class="radio-delivery__price">≈ від 200 грн</span>
+						</label>
+					</div>
+					<div class="delivery-form__location location">
+						<div class="location__icon">
+							<img src="img/location.svg" alt="location">
+						</div>
+						<div class="location__items">
+							<div class="location__time">
+								Графік роботи: щодня з 9:00 до 18:00
+							</div>
+							<div class="location__adress">м. Київ, пров. Ізяславський 52, пов. 2
+							</div>
+						</div>
+						<button type="button" class="location__button"><span>На мапі</span></button>
+					</div>
+				</div>
+				<div class="borderline"></div>
+				<div class="form__payment payment-form">
+					<h3 class="payment-form__subtitle"><img src="img/icon-oplata.svg" alt="#"><span>Вибір
+							способу оплати</span></h3>
+					<div class="payment-form__items">
+						<label class="payment-form__radio radio">
+							<input type="radio" name="payment" class="radio__input">
+							<span class="radio__text">Готівкою при отриманні (Післясплата)</span>
+						</label>
+						<label class="payment-form__radio radio">
+							<input type="radio" name="payment" class="radio__input">
+							<span class="radio__text">Оплата карткою на сайті</span>
+							<img src="img/master-card-logo.svg" alt="mastercard">
+							<img src="img/visa-card-logo.svg" alt="">
+						</label>
+						<label class="payment-form__radio radio">
+							<input type="radio" name="payment" class="radio__input">
+							<span class="radio__text">Privat Pay</span>
+							<img src="img/privat-pay-logo.svg" alt="privat-pay">
+						</label>
+						<label class="payment-form__radio radio">
+							<input type="radio" name="payment" class="radio__input">
+							<span class="radio__text">Кредит від Krovato</span>
+						</label>
+						<label class="payment-form__radio radio">
+							<input type="radio" name="payment" class="radio__input">
+							<span class="radio__text">Оплата частинами ПриватБанк</span>
+							<img src="img/privaty-credit-logo.svg" alt="pryvat-credit">
+						</label>
+						<label class="payment-form__radio radio">
+							<input type="radio" name="payment" class="radio__input">
+							<span class="radio__text">Оплата частинами МоноБанк</span>
+							<img src="img/mono-bank-logo.svg" alt="monobank">
+						</label>
+					</div>
+				</div>
+				<div class="borderline"></div>
+				<div class="form__comments comments-form">
+					<h3 class="comments-form__subtitle"><img src="img/icon-comment.svg" alt="#"><span>Коментар до
+							замовлення</span></h3>
+					<textarea class="comments-form__textarea" placeholder="Ваш коментар" name="comments"></textarea>
+				</div>
+				<div class="form__button">
+					<span class="form__button">ОФОРМИТИ ЗАМОВЛЕННЯ</span>
+				</div>
+			</div>
+		</main>
+		<footer class=footer>
+		</footer>
+	</div>
+</body>
+
+</html>
