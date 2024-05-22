@@ -124,7 +124,6 @@ body {
 	line-height: 1.87;
 	gap: 10px;
 	width: 100%;
-	max-width: auto;
 	align-items: center;
 }
 
@@ -484,5 +483,4 @@ body {
 
 .buy-form__button:hover {
 	background-color: #ffa72d;
-
 }
