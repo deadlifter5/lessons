@@ -425,7 +425,9 @@ body {
           align-items: center;
 }
 .about__title::after {
-  display: block;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   content: "";
   height: 1px;
   width: 35%;
@@ -508,9 +510,11 @@ body {
   text-transform: uppercase;
 }
 .edits__title::after {
-  display: block;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   content: "";
-  height: 0.5px;
+  height: 1px;
   width: 45%;
   margin-top: 20px;
   background: -webkit-gradient(linear, left top, right top, from(#f00), color-stop(48.9%, #42ff00), to(#2400ff));
