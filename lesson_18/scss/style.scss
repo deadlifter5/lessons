@@ -313,7 +313,7 @@ body {
 
 		&::after {
 			content: "";
-			height: 0.5px;
+			height: 1px;
 			width: 35%;
 			background: linear-gradient(90deg, #f00 0%, #42ff00 48.9%, #2400ff 100%);
 			margin-top: 20px;
