@@ -425,6 +425,7 @@ body {
           align-items: center;
 }
 .about__title::after {
+  display: block;
   content: "";
   height: 1px;
   width: 35%;
