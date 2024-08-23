@@ -21,17 +21,10 @@ function getSeason(monthNumber) {
     case 11:
       season = "Autumn"
       break
-    default:
-      throw new Error("Month is not correct")
   }
   return season
 }
 let monthNumber = parseInt(prompt("Enter month number"))
-try {
-  let result = getSeason(monthNumber)
-  document.write(`Season: ${result}`)
-} catch (error) {
-  document.write(`${error.message}`)
-} finally {
-  document.write(`<br>Bye!`)
-}
+
+let result = getSeason(monthNumber)
+document.write(`Season: ${result}`)
