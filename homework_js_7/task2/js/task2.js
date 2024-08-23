@@ -1,5 +1,4 @@
-let monthNumber = parseInt(prompt("Enter month number(1 to 12)"))
-function getMonthTitle() {
+function getMonthTitle(monthNumber) {
   let monthTitle
   switch (monthNumber) {
     case 1:
@@ -41,5 +40,6 @@ function getMonthTitle() {
   }
   return monthTitle
 }
-let month = getMonthTitle()
+let monthNumber = parseInt(prompt("Enter month number(1 to 12)"))
+let month = getMonthTitle(monthNumber)
 document.write(`Month: ${month}`)
