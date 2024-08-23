@@ -1,5 +1,5 @@
+let dayNumber = parseInt(prompt("Enter day number(1 to 7)"))
 function getDayType() {
-  let dayNumber = parseInt(prompt("Enter day number(1 to 7)"))
   let dayType
   switch (dayNumber) {
     case 1:

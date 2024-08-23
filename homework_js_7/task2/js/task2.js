@@ -1,5 +1,5 @@
+let monthNumber = parseInt(prompt("Enter month number(1 to 12)"))
 function getMonthTitle() {
-  let monthNumber = parseInt(prompt("Enter month number(1 to 12)"))
   let monthTitle
   switch (monthNumber) {
     case 1:
