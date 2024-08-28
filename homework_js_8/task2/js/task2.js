@@ -66,7 +66,7 @@ function getWeekendCustomersSum(dailyCustomersNumber) {
   return weekendCustomersSum
 }
 const weekendCustomers = getWeekendCustomersSum(dailyCustomersNumber)
-document.write(`<br>Midweek customers number: ${weekendCustomers}<br>`)
+document.write(`<br>Weekend customers number: ${weekendCustomers}<br>`)
 
 // ======================================================================
 
