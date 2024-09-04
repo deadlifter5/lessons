@@ -1,0 +1,5 @@
+const numbersQuantity = parseInt(prompt("Enter numbers quantity", "8"))
+let arr = new Array(numbersQuantity)
+arr.fill(1, 0, 4)
+arr.fill(7, 4, 8)
+document.write(arr)
