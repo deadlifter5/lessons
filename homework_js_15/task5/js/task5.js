@@ -20,9 +20,9 @@ class DanceHead {
     let girlName = this.getRandGirlName()
     return document.write(`${boyName} + ${girlName} <br>`)
   }
-  getExec() {
+  run() {
     return setInterval(() => this.getDancePartner(), 5000)
   }
 }
 const danceHead = new DanceHead(boysNames, girlsNames)
-danceHead.getExec()
+danceHead.run()
