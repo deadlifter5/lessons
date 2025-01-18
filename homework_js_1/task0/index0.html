@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>task0</title>
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+  </head>
+  <body>
+    <h3>
+      Вводиться кількість пасажирів.<br />
+      Вивести:<br />
+      ● скільки потрібно автобусів (кожен автобус на 20 місць)<br />
+      ● скільки пляшок води (кожному пасажиру 2 пляшки)<br />
+      ● скільки бутербродів (кожному пасажиру 3 бутерброди)
+    </h3>
+
+    <div id="app">
+      <label>
+        Passengers number
+        <input type="number" v-model="passengersNumber" />
+      </label>
+      <hr />
+      <div>Buses necessary: {{ busesNumber }}</div>
+      <div>Bottles necessary: {{ bottlesNumber }}</div>
+      <div>Butterbrots necessary: {{ butterbrotsNumber }}</div>
+    </div>
+
+    <script src="./js/task0.js"></script>
+  </body>
+</html>

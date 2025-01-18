@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>task3</title>
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+  </head>
+  <body>
+    <h3>
+      Задача 3. “Рахунок у банку” <br />
+      Вимоги: 1. Спочатку сума дорівнює 0грн. Змінити суму у гривнях можна або
+      зарахуванням на рахунок, або зняттям,
+      <br />
+      2. Сума автоматично переводиться у долари та євро (фіксований курс
+      задається у data), <br />
+      3. можливість зарахувати суму (контролювати, щоб не була від’ємною),
+      <br />
+      4. можливість зняти (щоб не можна зняти більше ніж є на рахунку), <br />
+      5. при виконанні зняття і зарахування коштів вираховувати 3% від суми
+      (відображати кількість відсотків автоматично). <br />
+
+      При зміні суми: <br />
+      - якщо було зняття, то суму відоражати червоним <br />
+      - якщо було зарахування, то суму відображати зеленим <br />
+      Якщо сума валюти менша за 100 то відображати червоним кольором, інакше -
+      зеленим <br />
+    </h3>
+    <hr />
+    <div id="app">
+      <h4>Account: {{totalCount}} UAH</h4>
+      <label>
+        Credit to account:
+        <input type="number" v-model.lazy="creditVal" />
+      </label>
+      <button @click="creditToAccount">Credit</button>
+      <br />
+      <label>
+        Withdraw from account:
+        <input type="number" v-model.lazy="withdrawVal" />
+      </label>
+      <button @click="withdraw">Withdraw</button> <br />
+      <div>
+        <hr />
+        <span>Service interest: {{serviceInterest}} UAH</span>
+      </div>
+      <hr />
+      <span>Total in USD: {{exchangeUsd}} </span> <br />
+      <span>Total in EUR: {{exchangeEur}} </span>
+    </div>
+    <script src="./js/task3.js"></script>
+  </body>
+</html>
