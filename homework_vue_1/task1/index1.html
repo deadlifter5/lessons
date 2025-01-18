@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>task1</title>
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+  </head>
+  <body>
+    <h3>
+      Вводиться номер місяця. Автоматично виводити рекомендований одяг (зима –
+      пальто, літо – шорти ….). Також автоматично виводити зображення з
+      відповідним зображенням лісу (зима – ліс зі снігом, осінь – жовтий ліс,
+      …).
+    </h3>
+    <br />
+
+    <div id="app">
+      <label>
+        Month number (from 1 to 12)
+        <input type="number" v-model.lazy="monthNumber" />
+      </label>
+      <hr />
+      <div>Clothes to wear in {{ clothesType }}</div>
+      <hr />
+      <div><img :src="seasonImg" width="600" /></div>
+    </div>
+
+    <script src="./js/task1.js"></script>
+  </body>
+</html>
