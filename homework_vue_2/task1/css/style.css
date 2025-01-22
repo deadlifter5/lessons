@@ -1,0 +1,15 @@
+h3 {
+  color: white;
+}
+
+.cabin-options {
+  max-width: 600px;
+  min-height: 400px;
+}
+
+.business-background {
+  background: center / cover no-repeat url("../img/business.jpg");
+}
+.economy-background {
+  background: center / cover no-repeat url("../img/economy.jpg");
+}

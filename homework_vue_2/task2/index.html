@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>task2</title>
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+  </head>
+  <body>
+    <div id="app">
+      <div class="exercise" :class="answerColor">
+        <div class="exercise_image">
+          <img :src="img" />
+        </div>
+        <div class="exercise-word"><span>{{engWord}}</span></div>
+        <div class="exercise-result">
+          <label>
+            Your answer: <br />
+            <input type="text" v-model="userAnswer" />
+          </label>
+          <br />
+          <button @click="checkAnswer">Check</button>
+        </div>
+        <div>{{result}}</div>
+      </div>
+    </div>
+    <script src="./js/task2.js"></script>
+  </body>
+</html>

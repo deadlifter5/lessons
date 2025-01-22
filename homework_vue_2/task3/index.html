@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>task3</title>
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+  </head>
+  <body>
+    <h3>
+      Задача. Вивести список як маркований список з елементами у форматі (name:
+      salary)
+    </h3>
+    <div id="app">
+      <div v-for="(el,index) in workersList" :key="el.id">
+        {{index+1}}.{{el.name}}: {{el.salary}}
+      </div>
+    </div>
+    <script src="./js/task3.js"></script>
+  </body>
+</html>

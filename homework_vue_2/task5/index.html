@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>task5</title>
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+  </head>
+  <body>
+    <h3>
+      Задача. На кухню поступають замовлення. Спочатку ми додаємо їх у список
+      “Очікують на виконання”, якщо повар береться робити — замовлення
+      переходить у список “Виконуються”, якщо замовлення виконано — переходить у
+      список “Готові до виносу”. Якщо натиснути на “Подано” - страва зникає з
+      таблиці
+    </h3>
+    <div id="app">
+      <div class="order">
+        <label
+          >Нова замовлена страва:
+          <input type="text" v-model.lazy.trim="newDish" />
+        </label>
+        <button :disabled="!isDishEntered" @click="getOrder">Додати</button>
+      </div>
+
+      <div class="cooking" v-show="isCooking">
+        <div class="section">
+          <h6>Очікують виконання</h6>
+          <div
+            class="cooking__cell"
+            v-for="(dish, index) in waitingList"
+            :key="dish.id"
+          >
+            <span>{{dish.title}}</span>
+            <button @click="moveToProcessingList(index)">Готувати</button>
+          </div>
+        </div>
+
+        <div class="section">
+          <h6>Виконуються</h6>
+          <div
+            class="cooking__cell"
+            v-for="(dish, index) in processingList"
+            :key="dish.id"
+          >
+            <span>{{dish.title}}</span>
+            <button @click="moveToCompletedList(index)">Приготовлено</button>
+          </div>
+        </div>
+
+        <div class="section">
+          <h6>Готові до виносу</h6>
+          <div
+            class="cooking__cell"
+            v-for="(dish, index) in completedList"
+            :key="dish.id"
+          >
+            <span>{{dish.title}}</span>
+            <button @click="moveToServe(index)">Подано</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="./js/task5.js"></script>
+  </body>
+</html>

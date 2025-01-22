@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>task0</title>
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+  </head>
+  <body>
+    <h3>
+      Задача 0. Вводимо логіна і пароль. Якщо логін вірний відображаємо смайл.
+      Якщо ні, то: <br />
+      1. якщо логін = Іван – колір повідомлення про помилку синій <br />
+      2. якщо хтось інший, то колір повідомлення червоний
+    </h3>
+    <div id="app">
+      <label>Login: <input type="text" v-model.lazy="login" /></label><br />
+      <label>
+        Password: <br />
+        <input type="password" v-model.lazy="password" />
+      </label>
+      <br />
+      <button @click="go">Go</button>
+      <br />
+      <template v-if="isDataValid">
+        <div v-if="isDataCorrect" class="welcome">
+          <img :src="welcome" />
+        </div>
+        <div v-else :class="colorError">Invalid data!</div>
+      </template>
+    </div>
+    <script src="./js/task0.js"></script>
+  </body>
+</html>

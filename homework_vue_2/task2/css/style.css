@@ -1,0 +1,14 @@
+.exercise {
+  width: 200px;
+}
+
+.exercise_image img {
+  max-width: 200px;
+}
+.right-answer {
+  border: 3px solid green;
+}
+
+.wrong-answer {
+  border: 3px solid red;
+}

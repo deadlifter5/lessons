@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>task1</title>
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+  </head>
+  <body>
+    <h4>
+      Задача. З випадаючого списку вибираємо клас квитка у літаку. Якщо <br />
+      1. бізнес - виводимо елементи для вибору газети та коньяку (якщо вибрано
+      коньяк, то запропонувати закуску (так/ні)), на фоні зображення бізнес кают
+      <br />
+      2. економ – виводимо елементи для вибору типу пива і чипсів, на фоні
+      хмарки.
+    </h4>
+    <hr />
+    <div id="app">
+      <h2>Choose cabin class:</h2>
+      <select v-model="cabinClass">
+        <option value="business">Bussines class</option>
+        <option value="economy">Economy class</option>
+      </select>
+
+      <div
+        class="cabin-options"
+        :class="cabinClassBackground"
+        v-show="isClassSelected"
+      >
+        <template v-if="isBusinessClass">
+          <h3>Choose business class options:</h3>
+          <select v-model="businessClassOptions">
+            <option value="newspapers">Newspapers</option>
+            <option value="cognac">Cognac</option>
+          </select>
+          <div v-if="isCognac">
+            <h3>Do you want some snack?</h3>
+            <select v-model="cognacOptions">
+              <option>Yes</option>
+              <option>No</option>
+            </select>
+          </div>
+        </template>
+        <template v-else>
+          <h3>Choose economy class options:</h3>
+          <select v-model="economyClassOptions">
+            <option value="beer">Beer</option>
+            <option value="chips">Chips</option>
+          </select>
+        </template>
+      </div>
+    </div>
+
+    <script src="./js/task1.js"></script>
+  </body>
+</html>
