@@ -1,0 +1,2 @@
+"use strict";(self["webpackChunktask1_1"]=self["webpackChunktask1_1"]||[]).push([[594],{5433:function(n,t,u){u.r(t),u.d(t,{default:function(){return k}});var e=u(6768);const s={class:"contacts"};function c(n,t){return(0,e.uX)(),(0,e.CE)("div",s,t[0]||(t[0]=[(0,e.Lk)("h1",null,[(0,e.eW)(" Нас дуже легко знайти: "),(0,e.Lk)("p",null,"1.Потягом до Ужгорода"),(0,e.Lk)("p",null,"2.Шукайте бабу Галю (вона дорогу покаже)"),(0,e.eW)(" До зустрічі!!! ")],-1)]))}var r=u(1241);const a={},l=(0,r.A)(a,[["render",c]]);var k=l}}]);
+//# sourceMappingURL=about.aa1575c4.js.map
